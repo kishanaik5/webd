@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title> HTML5 Semantic Tags Demo</title>
+
+        <style>
+            body{
+                background-color: #FFFDD0;
+            }
+            aside{
+                float: right;
+                width: 25%;
+                background-color: cyan;
+                font-style: italic;
+                padding: 15px;
+            }
+            main{
+                float: left;
+                width: 70%;
+            }
+            footer{
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                text-align: center;
+            }
+            mark{
+                background-color: yellow;
+                color: black;
+            }
+            figure{
+                display: inline-block;
+                margin: auto;
+            }
+            figcaption{
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <article>
+            <header>
+                <h1> My Travelogue</h1>
+                <p>Random Escapades</p>
+            </header>
+            <main>
+                <figure>
+                    <img src="xyz.jpg" alt="none1" width="350" height="235">
+                    <figcaption>The Road That never ends</figcaption>
+                </figure>
+
+                <section>
+                    <h2>Ooty</h2>
+                    <p>Ooty is a popular hill station located in Nilgiri Hills.</p>
+                </section>
+                <section>
+                    <h2>Mysore</h2>
+                    <p>The City is also Known as the city of Palaces</p>
+                </section>
+            </main>
+            <aside>
+                <section>
+                    <p>Upcoming Trip to MUnnar and <mark>CHikkamangalore</mark> will be soon</p>
+                    <details>
+                        <summary>Tentative</summary>
+                        <p>24th July 2024</p>
+                    </details>
+                </section>
+            </aside>
+             <footer>
+                <p> @kishannaik03</p>
+             </footer>
+        </article>
+    </body>
+</html>

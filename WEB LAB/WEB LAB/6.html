@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model Demonstration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .box-outermost {
+            background-color: lightyellow;
+            padding: 20px;
+            border: 2px solid black;
+        }
+        .box-outer {
+            background-color: lightgreen;
+            padding: 20px;
+            border: 2px solid black;
+        }
+        .box-inner {
+            background-color: lightblue;
+            padding: 20px;
+            border: 2px solid black;
+        }
+        .box-innermost {
+            background-color: lightcoral;
+            padding: 20px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="box-outermost">
+        <div class="box-outer">
+            <div class="box-inner">
+                <div class="box-innermost">
+                    Innermost Content Box
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
