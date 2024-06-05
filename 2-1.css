@@ -1,53 +1,8 @@
-p.left
-{
-text-align:left;
-color:blue;
-font-family:Cambria;
-font-size:large;
-text-indent:20px;
+.external-style {
+    color: red;
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+    width: 300px;
+    height: 150px;
+    background-color: lightgreen;
 }
-p.center
-{
- text-align:center;
- text-decoration:underline;
- text-transform:uppercase;
- letter-spacing:-3px;
- word-spacing:20px;
- font-size:larger;
-}
-p.right
-{
- text-align:right;
- color:red;
- font-family:Tahoma;
- font-size:15pt;
- text-decoration:overline;
- font-style:italic;
-}
-b#headline
-{
- color:orange;
- font-size:22px;
- font-family:arial;
- text-decoration:underline;
-} 
-.a:link{ text-decoration:none;color:orange; }
-.a:visited{ text-decoration:none;color:red; }
-.a:hover{ text-decoration:underline;color:blue; }
-.a:active{ text-decoration:underline;color:purple; }
-.h3{ color:green; }
-.c1{cursor:crosshair}
-.c2{cursor:pointer}
-.c3{cursor:move}
-.c4{cursor:text}
-.c5{cursor:wait}
-.c6{cursor:help}
-.body
-{
-background-image:url('images/cse.png');
-background-repeat:no-repeat;
-background-position:center center;
-background-attachment:fixed;
-background-color:pink;
-}
-2-1.css
