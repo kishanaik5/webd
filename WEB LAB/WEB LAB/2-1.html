@@ -3,27 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inline Style Sheet</title>
-</head>
-<body>
-    <div style="color: blue; font-style: italic; font-size: 20px; width: 200px; height: 100px; background-color: lightgray;">
-        Inline Styled Div
-    </div>
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internal Style Sheet</title>
+    <title>Combined CSS Example</title>
+    <link rel="stylesheet" href="2-1.css">
     <style>
         .internal-style {
-            color: red;
-            font-style: oblique;
-            font-size: 22px;
+            margin-bottom: 60px;
+            color: green;
+            font-family: 'Times New Roman', serif;
+            font-size: 24px;
             width: 250px;
             height: 120px;
             background-color: lightblue;
@@ -31,34 +18,14 @@
     </style>
 </head>
 <body>
+    <div style="color: blue; font-family: Arial, Helvetica, sans-serif; font-size: 20px; width: 200px; height: 100px; background-color: lightgray;">
+        This is an example of inline CSS.
+    </div>
     <div class="internal-style">
-        Internal Styled Div
+        This is an example of internal CSS.
     </div>
-</body>
-</html>
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>External Style Sheet</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
     <div class="external-style">
-        External Styled Div
+        This is an example of external CSS.
     </div>
 </body>
 </html>
-
-
-.external-style {
-    color: green;
-    font-style: normal;
-    font-size: 24px;
-    width: 300px;
-    height: 150px;
-    background-color: lightcoral;
-}
