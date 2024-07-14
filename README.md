@@ -1,4 +1,4 @@
-1. a. Design HTML page that contains the following tags p, a, img, h1…h6, div, color selector, date time selector, month selector, url selector create a suitable profile."\n"
+1. a. Design HTML page that contains the following tags p, a, img, h1…h6, div, color selector, date time selector, month selector, url selector create a suitable profile. <br>
 b. Write JavaScript to validate the following fields of the Registration page.
  First Name (Name should contain alphabets and the length should not be less than 6 characters).
  Password (Password should not be less than 6 characters in length).
