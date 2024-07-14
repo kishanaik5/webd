@@ -1,11 +1,9 @@
-1. a. Design HTML page that contains the following tags <p>, <a>, <img>, <h1>…<h6>, <div>, <color selector>, <date time selector>, <month selector>, <url selector> create a suitable profile.
+1. a. Design HTML page that contains the following tags p, a, img, h1…h6, div, color selector, date time selector, month selector, url selector create a suitable profile.
 b. Write JavaScript to validate the following fields of the Registration page.
  First Name (Name should contain alphabets and the length should not be less than 6 characters).
  Password (Password should not be less than 6 characters in length).
  E-mail ID (should not contain any invalid and must follow the standard pattern name@domain.com)
  Mobile Number (The phone number should contain 10 numbers)
-
-CO1
 
 2. a. Develop and demonstrate the usage of inline, internal, and external style sheets using CSS.(the following styles should be applied 1. Color 2. Font style 3. Font size 4. Width 5. Height 6. Background color
 b. Apply responsive typography classes provided by Bootstrap to ensure consistent font sizes and line heights across different devices
