@@ -8,10 +8,9 @@ b. Write JavaScript to validate the following fields of the Registration page.
 2. a. Develop and demonstrate the usage of inline, internal, and external style sheets using CSS.(the following styles should be applied 1. Color 2. Font style 3. Font size 4. Width 5. Height 6. Background color <br>
 b. Apply responsive typography classes provided by Bootstrap to ensure consistent font sizes and line heights across different devices
 
-3. a, Develop and demonstrate JavaScript with POP-UP boxes and functions for the following problem:
+3. a. Develop and demonstrate JavaScript with POP-UP boxes and functions for the following problem:
    Input: A number n obtained using prompt 
-   Output: Factorial of n number using alert
-<br>
+   Output: Factorial of n number using alert<br>
 b. Create modal dialogs and popovers using Bootstrap to display additional content or interactive elements.
 
 4. Demonstrate the following HTML5 Semantic tags – < article >, < aside >, < details >, < figcaption >, < figure >, < footer >, < header >, < main >, < mark >, < section > for a webpage that gives information about travel experience.
