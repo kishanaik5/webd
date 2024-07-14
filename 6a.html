@@ -1,0 +1,119 @@
+/* table demonstration */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Table Demonstration</title>
+<style>
+  /* CSS for table styling */
+  table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .spanned {
+    background-color: lightblue;
+  }
+</style>
+</head>
+<body>
+
+<h2>Table Demonstration</h2>
+
+<!-- 1. Table Border -->
+<h3>1. Table Border</h3>
+<table>
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+</table>
+
+<!-- 2. Table Size -->
+<h3>2. Table Size</h3>
+<table style="width: 50%;">
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+</table>
+
+<!-- 3. Table Header -->
+<h3>3. Table Header</h3>
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Table Header</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Data 1</td>
+      <td>Data 2</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- 4. Padding and Spacing -->
+<h3>4. Padding and Spacing</h3>
+<table style="padding: 20px; border-spacing: 10px;">
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+</table>
+
+<!-- 5. Column Span and Row Span -->
+<h3>5. Column Span and Row Span</h3>
+<table>
+  <tr>
+    <th colspan="2">Header 1 and Header 2</th>
+  </tr>
+  <tr>
+    <td rowspan="2">Data 1<br>Spanned</td>
+    <td>Data 2</td>
+  </tr>
+  <tr>
+    <td>Data 3</td>
+  </tr>
+</table>
+
+<!-- 6. Table Styling -->
+<h3>6. Table Styling</h3>
+<table class="spanned">
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+</table>
+
+</body>
+</html>

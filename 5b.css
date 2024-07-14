@@ -1,0 +1,15 @@
+body {
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.calculator {
+  background-color: #fff;
+  margin: 50px auto;
+  padding: 50px;
+  border: 50px solid #ccc;
+  max-width: 300px;
+}
