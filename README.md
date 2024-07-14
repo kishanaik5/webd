@@ -1,9 +1,9 @@
 1. a. Design HTML page that contains the following tags <p>, <a>, <img>, <h1>…<h6>, <div>, <color selector>, <date time selector>, <month selector>, <url selector> create a suitable profile.
 b. Write JavaScript to validate the following fields of the Registration page.
-> First Name (Name should contain alphabets and the length should not be less than 6 characters).
-> Password (Password should not be less than 6 characters in length).
-> E-mail ID (should not contain any invalid and must follow the standard pattern name@domain.com)
-> Mobile Number (The phone number should contain 10 numbers)
+ First Name (Name should contain alphabets and the length should not be less than 6 characters).
+ Password (Password should not be less than 6 characters in length).
+ E-mail ID (should not contain any invalid and must follow the standard pattern name@domain.com)
+ Mobile Number (The phone number should contain 10 numbers)
 
 CO1
 
@@ -26,10 +26,10 @@ b. Create a webpage containing 3 overlapping images using HTML, CSS and JS. Furt
 
 
 7. Demonstrate the following using the bootstrap 
-> the table-hover class enables a hover state (grey background on mouse-over) on table rows
-> Color spinners
-> Create a basic pagination
-> Images(rounded,thumbnail,square)
+ the table-hover class enables a hover state (grey background on mouse-over) on table rows
+ Color spinners
+ Create a basic pagination
+ Images(rounded,thumbnail,square)
 
 8. Design the following static web pages required for an online book store web site.
 HOME PAGE: The static home page must contain three frames.
